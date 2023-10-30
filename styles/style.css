@@ -37,12 +37,13 @@ section {
 }
 
 main {
+  position: relative;
   display: flex;
   flex-direction: row;
 }
 
 .left-side {
-  position: fixed;
+  background: white;
   margin: 24px;
 }
 
@@ -66,8 +67,6 @@ main {
 
 .blog-body {
   max-width: 713px;
-  width: auto;
-  margin: auto;
 }
 
 .author-section {
