@@ -48,3 +48,9 @@
 .cmd > a:hover {
   background: #6d6d6d;
 }
+
+@media only screen and (max-width: 750px) {
+  .cmd {
+    display: none;
+  }
+}

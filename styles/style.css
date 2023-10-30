@@ -66,6 +66,7 @@ main {
 }
 
 .blog-body {
+  padding: 10px;
   max-width: 713px;
 }
 
@@ -108,4 +109,29 @@ main {
 
 .add-left {
   margin-left: 21px;
+}
+
+.frame {
+  width: 560;
+  height: 315;
+}
+
+@media only screen and (max-width: 900px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .img-style {
+    max-width: none;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .add-left {
+    margin: 12px;
+  }
 }
