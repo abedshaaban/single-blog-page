@@ -36,6 +36,29 @@ section {
   margin-bottom: 45px;
 }
 
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side {
+  position: fixed;
+}
+
+.side-table {
+  height: fit-content;
+  padding: 12px 12px 12px 24px;
+  margin: 24px;
+  border: 2px solid black;
+  border-radius: 18px;
+}
+
+.side-table-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
 .blog-body {
   max-width: 713px;
   width: auto;
