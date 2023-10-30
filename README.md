@@ -2,9 +2,9 @@
 A single blog page that teaches you how to learn Mandarin Chinese in 4.5 minutes.
 
 ## features
-- mobile responsive 📱
-- search bar 🔍
-- table of contents ℹ
+- [x] mobile responsive 📱
+- [x] search bar 🔍
+- [x] table of contents ℹ
 
 ## preview
 <div style="display:flex; flex-direction:row">
