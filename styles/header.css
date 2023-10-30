@@ -23,3 +23,28 @@
   text-decoration: underline;
   color: rgba(255, 255, 255, 1) !important;
 }
+
+.cmd {
+  max-width: 350px;
+  width: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  border-radius: 9px;
+  display: flex;
+}
+
+.cmd > input {
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 0 9px;
+}
+.cmd > a {
+  background: #000;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.cmd > a:hover {
+  background: #6d6d6d;
+}
